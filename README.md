@@ -61,6 +61,7 @@ Helpful Tip on Testing this Project:
 - [ ] Implement the `register` function inside `/config/routes.js`.
 - [ ] Implement the `login` function inside `/config/routes.js`.
 - [ ] Use JSON Web Tokens for authentication.
+- [ ] Add at least 2 tests for the API endpoints.
 
 **Note** The migrations and a database with empty users is already included
 
