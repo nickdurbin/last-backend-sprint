@@ -1,5 +1,5 @@
 {
-  "name": "webauth-challenge",
+  "name": "nodeauth-challenge",
   "version": "1.0.0",
   "description": "Authentication Sprint Challenge",
   "main": "index.js",
