@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.formContainer {
+  display: flex;
+  align-items: flex-start;
+  text-align: center;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  min-height: 500px;
+  height: 100%;
+  margin: 6% auto;
+  padding: 2%;
+  box-shadow: 1px 3px 5px;
+  border-radius: 1em;
+}
+
+input {
+  min-width: 200px;
+  width: 100%;
+  height: 35px;
+  margin: 1% auto;
+  padding: 1%;
+}
+
+hr {
+  width: 15%;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 60%;
+  padding: 1%;
+  border-right: 1px black solid;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1% auto;
+  padding: 1%;
+}
+
+button {
+  min-width: 150px;
+  width: 90%;
+  height: 35px;
+  margin: 2% 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 1em;
+}
+
+button:hover {
+  transform: scale(1.02);
+}
+
+.navLinks a {
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.navLinks a:hover {
+  transform: scale(1.02);
+}
+
+.jokesList {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 40%;
+}
+
+.jokesContainer {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  height: 200px;
+  margin: 2% auto;
+  padding: 1%;
+  background: white;
+  box-shadow: 1px 3px 5px;
+  border: none;
+  border-radius: 1em;
+}
+
+.jokes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 60%;
+  padding: 1%;
+  border-right: 1px black solid;
+}
