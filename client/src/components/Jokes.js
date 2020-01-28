@@ -5,7 +5,7 @@ function Jokes() {
   const [jokes, setJokes] = useState([])
 
   useEffect(() => {
-    axios.get("http://localhost:4000/api/jokes")
+    axios.get("http://localhost:4000/api/jokes", { headers: { Authorization: localStorage.getItem('token') }})
       .then(res => {
         console.log(res.data)
         setJokes(res.data)
@@ -30,4 +30,4 @@ function Jokes() {
   )
 }
 
-export default Jokes
+export default Jokes;
